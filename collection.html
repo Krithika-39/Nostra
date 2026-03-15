@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>collections</title>
+   <link rel="stylesheet" href="style.css">
+   <!-- font awesome cdn link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+   <div class="sign-off" id="messageBox">
+      <p>Sign Up and GET 20% OFF for your first order</p>
+      <p class="close" onclick="closeMessage()">X</p>
+   </div>
+   <div class="nav-bar">
+      <h2>Nostra</h2>
+      <div class="section-2">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#new-arrival">New Arrival</a></li>
+            <li><a href="index.html#most-wanted">Most Wanted</a></li>
+            <li><a href="collection.html">Collections</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+         </ul>
+         <h4 onclick="openMenu()"><i class="fa-solid fa-bars"></i></h4>
+      </div>
+
+   </div>
+   <div id="popupMenu">
+
+      <p onclick="closeMenu()" class="close">X</p>
+
+      <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#new-arrival">New Arrival</a></li>
+                <li><a href="index.html#most-wanted">Most Wanted</a></li>
+                <li><a href="collection.html">Collections</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+   </div>
+   <!-- <div class ="sign-off">
+    <p>Sign Up and GET 20% OFF for your first order</p>
+    <p class ="close">X</p>
+    </div>
+       <div class="nav-bar">
+        <h2>Nostra</h2>
+        <div class="section-2">
+         <p><a href="index.html">Home</a></p>
+        <p><a href="collection.html">collections</a></p>
+        <p><a href="contact.html">Contact Us</a></p>
+        </div>
+            
+    </div>  -->
+   <section class="container">
+
+      <div class="leftsidebar">
+         <h1>Occasion</h1>
+         <input type="checkbox" class="types" value="Summer">Summer
+         <br>
+         <input type="checkbox" class="types" value="Party">Party
+         <br>
+         <input type="checkbox" class="types" value="Beach">Beach
+
+
+
+         <h1>Colors</h1>
+         <input type="checkbox" class="types" value="Red">Red
+         <br>
+         <input type="checkbox" class="types" value="Black">Black
+         <br>
+         <input type="checkbox" class="types" value="White">White
+         <br>
+         <input type="checkbox" class="types" value="Green">Green
+
+         <h1>Arrivals</h1>
+         <input type="checkbox" class="types" value="Old">Old
+         <br>
+         <input type="checkbox" class="types" value="New">New
+
+
+
+      </div>
+      <!-- vertical line -->
+      <div class="verdivider"></div>
+
+      <div class="dresscontent">
+         <div class="search">
+            <input type="text" placeholder="search the dress" id="search">
+         </div>
+         <div class="selectdress">
+            <div class="dressshow" data-type="Party Red New">
+               <img src="./images/collection/d1.jfif" alt="">
+               <h1>Floral Summer Shirt</h1>
+               <p>₹399</p>
+            </div>
+            <div class="dressshow" data-type="Party Red New">
+               <img src="./images/collection/d2.jfif" alt="">
+               <h1>Summer Green</h1>
+               <p>₹260</p>
+            </div>
+            <div class="dressshow" data-type="Beach White New">
+               <img src="./images/collection/d3.jfif" alt="">
+               <h1>party Floral Shirt</h1>
+               <p>₹499</p>
+            </div>
+            <div class="dressshow" data-type="Beach White New">
+               <img src="./images/collection/d4.jfif" alt="">
+               <h1>Floral Summer Shirt</h1>
+               <p>₹599</p>
+            </div>
+            <div class="dressshow" data-type="Beach White New">
+               <img src="./images/collection/d5.jfif" alt="">
+               <h1>Floral Summer Shirt</h1>
+               <p>₹399</p>
+            </div>
+            <div class="dressshow" data-type="Beach White New">
+               <img src="./images/collection/d12.jfif" alt="">
+               <h1>Floral Summer Shirt</h1>
+               <p>₹599</p>
+            </div>
+            <div class="dressshow" data-type="Beach White New">
+               <img src="./images/collection/d11.jfif" alt="">
+               <h1>Floral Summer Shirt</h1>
+               <p>₹799</p>
+            </div>
+            <div class="dressshow" data-type="Beach White New">
+               <img src="./images/collection/d8.jfif" alt="">
+               <h1>Floral Summer Shirt</h1>
+               <p>₹899</p>
+            </div>
+            <div class="dressshow" data-type="Beach White New">
+               <img src="./images/collection/d9.jfif" alt="">
+               <h1>Floral Summer Shirt</h1>
+               <p>₹399</p>
+            </div>
+
+
+         </div>
+      </div>
+
+   </section>
+
+   <!-- news section -->
+   <section class="news">
+      <h1>Join our News Letter</h1>
+      <p>Signup for our email newspaper to get exclusive discounts,updates and more</p>
+      <input type="text" class="text">
+      <br>
+      <button class="sub--btn">Subscribe</button>
+   </section>
+
+   <div class="footer">
+      <h1>Nostra</h1>
+      <p>The standard chunk of From crisp cotton to modern cuts, our collection offers timeless sophistication for any
+         occasion.</p>
+      <div class="footer__connect">
+         <i class="fa-brands fa-instagram" style="color: rgb(6, 6, 6);"></i>
+         <i class="fa-brands fa-twitter" style="color: rgb(6, 6, 6);"></i>
+         <i class="fa-brands fa-facebook" style="color: rgb(6, 6, 6);"></i>
+      </div>
+      <p>@ 2026 Nostra.com</p>
+
+   </div>
+   <script src="collection.js"></script>
+</body>
+
+</html>
